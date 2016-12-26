@@ -1,0 +1,33 @@
+.Buttoncontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+    width: 60vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    min-height: 10vh;
+}
+
+.Button {
+    flex: 1 1 auto;
+    padding: 20px;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    text-transform: uppercase;
+    position: relative;
+    overflow: hidden;
+    transition: .3s;
+}
+
+.Button:hover {
+    cursor: pointer;
+    transition: .3s;
+    content: '';
+    width: 0;
+    bottom: 0;
+    background: #f7f7f7;
+    color: rgba(86,232,212,1);
+}
+
