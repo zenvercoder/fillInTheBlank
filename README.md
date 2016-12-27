@@ -4,8 +4,7 @@
 
 * [create-react-app-buildpack](https://github.com/mars/create-react-app-buildpack)
 
-* ]this article](https://gist.github.com/mars/5e01bb2a074594b44870cb087f54fe2f) was helpful to get app deployed to heroku,
-particularly this line: `echo '{ "root": "build/" }' > static.json` (I put it in package.json)
+* [this article](https://gist.github.com/mars/5e01bb2a074594b44870cb087f54fe2f) was helpful to get app deployed to heroku,
 
 * After trying many different things, I read up and found that I shouldn't have deleted the public folder after all 
 
